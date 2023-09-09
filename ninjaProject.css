@@ -107,13 +107,19 @@ body {
     margin-top: 30px;
   }
   
+  
   .belt{
     float: left;
+    margin-left: -4px;
   }
   .belt p{
     color: white;
     font-size: 40px;
     margin-top: -160px;
+  }
+  .belt:hover{
+    transform: scale(1.2);
+    transition-duration: 100ms;
   }
   .sensei{
     padding-top: 350px;
@@ -123,6 +129,7 @@ body {
     font-size: 40px;
     margin-top: -160px;
   }
+
   .btn-wrapper {
     text-align: center;
     margin: 20px 0;
